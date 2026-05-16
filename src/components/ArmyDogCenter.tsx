@@ -25,7 +25,7 @@ const CONTACT_NUMBERS = [
 
 const ADDRESS_LINK = "https://maps.app.goo.gl/1SPeqpaMJCeCqCZHA";
 const ADDRESS_COORDS = "28.302475, 70.092636";
-const CEO_NAME = "Malik Yaseen";
+const CEO_NAME = "Commanding Officer Yaseen";
 
 const LANGUAGES = [
   { id: 'en', name: 'English', native: 'English', dir: 'ltr' as const },
@@ -37,20 +37,20 @@ const LANGUAGES = [
 const translations = {
   en: {
     heroTitle: "Real Dogs. Real Results.",
-    heroDesc: "Malik Army Dog Center specializes in theft recovery, tracking, and crime support. Operating across Sindh, KPK, Balochistan, and Punjab with unmatched precision.",
+    heroDesc: "Army Dog Center specializes in theft recovery, tracking, and crime support. Operating across Sindh, KPK, Balochistan, and Punjab with unmatched precision.",
     startTracking: "Start Tracking",
     emergencyCall: "Emergency Call",
     servicesTitle: "Strategic K9 Services",
     servicesBadge: "SPECIALIZED COMMAND",
     aboutTitle: "Serving the Nation's Security Needs.",
-    aboutDesc: '"At Malik Army Dog Center, our priority is your safety and recovery. We have built a legacy of trust and effectiveness through years of service across Pakistan. Our dogs are more than partners; they are precision tools for justice."',
+    aboutDesc: '"At Army Dog Center, our priority is your safety and recovery. We have built a legacy of trust and effectiveness through years of service across Pakistan. Our dogs are more than partners; they are precision tools for justice."',
     contactTitle: "Secure Your Recovery",
     branchOffice: "HQ Command Center",
     instantSupport: "Direct Deployment",
     officialWA: "Official WhatsApp Portal",
     galleryTitle: "Active Duty Force",
     locationsTitle: "Strategic Presence",
-    locationsDesc: "Operational in Every Province",
+    locationsDesc: "Operational Across Key Sectors",
     nav: {
       services: "Services",
       locations: "Sectors",
@@ -58,32 +58,32 @@ const translations = {
       contact: "Engage"
     },
     serviceList: [
-      { id: "recovery", title: "Theft Recovery", key: "💰", code: "RECOVERY_OPS" },
-      { id: "rescue", title: "Search & Rescue", key: "🚁", code: "RESCUE_FORCE" },
-      { id: "evidence", title: "Evidence Dogs", key: "🏛️", code: "LEGAL_SUPPORT" },
-      { id: "prevention", title: "Theft Prevention", key: "🛡️", code: "ASSET_PROTECT" },
-      { id: "tracking", title: "Dog Tracking", key: "🐾", code: "TRACE_MASTER" },
-      { id: "crime", title: "Crime Support", key: "🚔", code: "CIVIL_AID" },
-      { id: "patrol", title: "Security Patrols", key: "💂", code: "AREA_WATCH" },
-      { id: "search", title: "Target Search", key: "🔍", code: "TARGET_FIND" }
+      { id: "recovery", title: "Theft Recovery", img: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=200", code: "RECOVERY_OPS" },
+      { id: "rescue", title: "Search & Rescue", img: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=200", code: "RESCUE_FORCE" },
+      { id: "evidence", title: "Evidence Dogs", img: "https://images.unsplash.com/photo-1628153322122-550998b3c990?auto=format&fit=crop&q=80&w=200", code: "LEGAL_SUPPORT" },
+      { id: "prevention", title: "Theft Prevention", img: "https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?auto=format&fit=crop&q=80&w=200", code: "ASSET_PROTECT" },
+      { id: "tracking", title: "Dog Tracking", img: "https://images.unsplash.com/photo-1589307730440-6902264c7606?auto=format&fit=crop&q=80&w=200", code: "TRACE_MASTER" },
+      { id: "crime", title: "Crime Support", img: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=200", code: "CIVIL_AID" },
+      { id: "patrol", title: "Security Patrols", img: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=200", code: "AREA_WATCH" },
+      { id: "search", title: "Target Search", img: "https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&q=80&w=200", code: "TARGET_FIND" }
     ]
   },
   ur: {
     heroTitle: "اصلی کتے۔ یقینی نتائج۔",
-    heroDesc: "ملک آرمی ڈاگ سینٹر چوری کی ریکوری، ٹریکنگ اور کرائم سپورٹ میں مہارت رکھتا ہے۔ سندھ، کے پی کے، بلوچستان اور پنجاب میں بے مثال درستگی کے ساتھ کام کر رہا ہے۔",
+    heroDesc: "آرمی ڈاگ سینٹر چوری کی ریکوری، ٹریکنگ اور کرائم سپورٹ میں مہارت رکھتا ہے۔ سندھ، کے پی کے، بلوچستان اور پنجاب میں بے مثال درستگی کے ساتھ کام کر رہا ہے۔",
     startTracking: "ٹریکنگ شروع کریں",
     emergencyCall: "ایمرجنسی کال",
     servicesTitle: "اسٹریٹجک کینائن سروسز",
     servicesBadge: "خصوصی کمانڈ",
     aboutTitle: "ملک کی سیکیورٹی کی ضروریات کو پورا کرنا۔",
-    aboutDesc: '"ملک آرمی ڈاگ سینٹر میں، ہماری ترجیح آپ کی حفاظت اور ریکوری ہے۔ ہم نے پورے پاکستان میں برسوں کی خدمات کے ذریعے اعتماد اور تاثیر کی میراث قائم کی ہے۔ ہمارے کتے شراکت داروں سے بڑھ کر ہیں؛ وہ انصاف کے لیے درست اوزار ہیں۔"',
+    aboutDesc: '"آرمی ڈاگ سینٹر میں، ہماری ترجیح آپ کی حفاظت اور ریکوری ہے۔ ہم نے پورے پاکستان میں برسوں کی خدمات کے ذریعے اعتماد اور تاثیر کی میراث قائم کی ہے۔ ہمارے کتے شراکت داروں سے بڑھ کر ہیں؛ وہ انصاف کے لیے درست اوزار ہیں۔"',
     contactTitle: "اپنی ریکوری کو محفوظ بنائیں",
     branchOffice: "ہیڈ کوارٹر کمانڈ سنٹر",
     instantSupport: "براہ راست تعیناتی",
     officialWA: "آفیشل واٹس ایپ پورٹل",
     galleryTitle: "ایکٹو ڈیوٹی فورس",
     locationsTitle: "اسٹریٹجک موجودگی",
-    locationsDesc: "ہر صوبے میں آپریشنل",
+    locationsDesc: "اہم سیکٹرز میں آپریشنل",
     nav: {
       services: "خدمات",
       locations: "سیکٹرز",
@@ -91,32 +91,32 @@ const translations = {
       contact: "رابطہ"
     },
     serviceList: [
-      { id: "recovery", title: "چوری کی واپسی", key: "💰", code: "RECOVERY_OPS" },
-      { id: "rescue", title: "تلاش اور بچاؤ", key: "🚁", code: "RESCUE_FORCE" },
-      { id: "evidence", title: "شواہد کتے", key: "🏛️", code: "LEGAL_SUPPORT" },
-      { id: "prevention", title: "چوری کی روک تھام", key: "🛡️", code: "ASSET_PROTECT" },
-      { id: "tracking", title: "ڈاگ ٹریکنگ", key: "🐾", code: "TRACE_MASTER" },
-      { id: "crime", title: "کرائم سپورٹ", key: "🚔", code: "CIVIL_AID" },
-      { id: "patrol", title: "سیکورٹی گشت", key: "💂", code: "AREA_WATCH" },
-      { id: "search", title: "ٹارگٹ سرچ", key: "🔍", code: "TARGET_FIND" }
+      { id: "recovery", title: "چوری کی واپسی", img: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=200", code: "RECOVERY_OPS" },
+      { id: "rescue", title: "تلاش اور بچاؤ", img: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=200", code: "RESCUE_FORCE" },
+      { id: "evidence", title: "شواہد کتے", img: "https://images.unsplash.com/photo-1628153322122-550998b3c990?auto=format&fit=crop&q=80&w=200", code: "LEGAL_SUPPORT" },
+      { id: "prevention", title: "چوری کی روک تھام", img: "https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?auto=format&fit=crop&q=80&w=200", code: "ASSET_PROTECT" },
+      { id: "tracking", title: "ڈاگ ٹریکنگ", img: "https://images.unsplash.com/photo-1589307730440-6902264c7606?auto=format&fit=crop&q=80&w=200", code: "TRACE_MASTER" },
+      { id: "crime", title: "کرائم سپورٹ", img: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=200", code: "CIVIL_AID" },
+      { id: "patrol", title: "سیکورٹی گشت", img: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=200", code: "AREA_WATCH" },
+      { id: "search", title: "ٹارگٹ سرچ", img: "https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&q=80&w=200", code: "TARGET_FIND" }
     ]
   },
   sd: {
     heroTitle: "اصلي ڪتا. پڪا نتيجا.",
-    heroDesc: "ملڪ آرمي ڊاگ سينٽر چوري جي ريڪوري، ٽريڪنگ ۽ ڪرائم سپورٽ ۾ مهارت رکي ٿو. سنڌ، ڪي پي ڪي، بلوچستان ۽ پنجاب ۾ بي مثال درستگي سان ڪم ڪري رهيو آهي.",
+    heroDesc: "آرمي ڊاگ سينٽر چوري جي ريڪوري، ٽريڪنگ ۽ ڪرائم سپورٽ ۾ مهارت رکي ٿو. سنڌ، ڪي پي ڪي، بلوچستان ۽ پنجاب ۾ بي مثال درستگي سان ڪم ڪري رهيو آهي.",
     startTracking: "ٽريڪنگ شروع ڪريو",
     emergencyCall: "ايمرجنسي ڪال",
     servicesTitle: "اسٽريٽجڪ ڪينائن سروسز",
     servicesBadge: "خاص ڪمانڊ",
     aboutTitle: "ملڪ جي سيڪيورٽي ضرورتن کي پورو ڪرڻ.",
-    aboutDesc: '"ملڪ آرمي ڊاگ سينٽر ۾، اسان جي ترجيح توهان جي حفاظت ۽ ريڪوري آهي. اسان سڄي پاڪستان ۾ سالن جي خدمتن ذريعي اعتماد ۽ تاثير جي ميراث قائم ڪئي آهي. اسان جا ڪتا ڀائيوارن کان وڌيڪ آهن؛ اهي انصاف لاءِ درست اوزار آهن."',
+    aboutDesc: '"آرمي ڊاگ سينٽر ۾، اسان جي ترجيح توهان جي حفاظت ۽ ريڪوري آهي. اسان سڄي پاڪستان ۾ سالن جي خدمتن ذريعي اعتماد ۽ تاثير جي ميراث قائم ڪئي آهي. اسان جا ڪتا ڀائيوارن کان وڌيڪ آهن؛ اهي انصاف لاءِ درست اوزار آهن."',
     contactTitle: "پنهنجي ريڪوري کي محفوظ بڻايون",
     branchOffice: "هيڊ ڪوارٽر ڪمانڊ سينٽر",
     instantSupport: "سڌي طرح تعیناتي",
     officialWA: "سرڪاري واٽس ایپ پورٽل",
     galleryTitle: "ايڪٽيو ڊيوٽي فورس",
     locationsTitle: "اسٽريٽجڪ موجودگي",
-    locationsDesc: "هر صوبي ۾ آپريشنل",
+    locationsDesc: "اهم سيڪٽرز ۾ آپريشنل",
     nav: {
       services: "خدمتون",
       locations: "سیکٹر",
@@ -124,32 +124,32 @@ const translations = {
       contact: "رابطو"
     },
     serviceList: [
-      { id: "recovery", title: "چوري جي واپسي", key: "💰", code: "RECOVERY_OPS" },
-      { id: "rescue", title: "ڳولا ۽ بچاءُ", key: "🚁", code: "RESCUE_FORCE" },
-      { id: "evidence", title: "ثبوت ڪتا", key: "🏛️", code: "LEGAL_SUPPORT" },
-      { id: "prevention", title: "چوري روڪڻ", key: "🛡️", code: "ASSET_PROTECT" },
-      { id: "tracking", title: "ڊاگ ٽريڪنگ", key: "🐾", code: "TRACE_MASTER" },
-      { id: "crime", title: "ڏوهن جي مدد", key: "🚔", code: "CIVIL_AID" },
-      { id: "patrol", title: "سيڪيورٽي گشت", key: "💂", code: "AREA_WATCH" },
-      { id: "search", title: "ٽارگيٽ ڳولا", key: "🔍", code: "TARGET_FIND" }
+      { id: "recovery", title: "چوري جي واپسي", img: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=200", code: "RECOVERY_OPS" },
+      { id: "rescue", title: "ڳولا ۽ بچاءُ", img: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=200", code: "RESCUE_FORCE" },
+      { id: "evidence", title: "ثبوت ڪتا", img: "https://images.unsplash.com/photo-1628153322122-550998b3c990?auto=format&fit=crop&q=80&w=200", code: "LEGAL_SUPPORT" },
+      { id: "prevention", title: "چوري روڪڻ", img: "https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?auto=format&fit=crop&q=80&w=200", code: "ASSET_PROTECT" },
+      { id: "tracking", title: "ڊاگ ٽريڪنگ", img: "https://images.unsplash.com/photo-1589307730440-6902264c7606?auto=format&fit=crop&q=80&w=200", code: "TRACE_MASTER" },
+      { id: "crime", title: "ڏوهن جي مدد", img: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=200", code: "CIVIL_AID" },
+      { id: "patrol", title: "سيڪيورٽي گشت", img: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=200", code: "AREA_WATCH" },
+      { id: "search", title: "ٽارگيٽ ڳولا", img: "https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&q=80&w=200", code: "TARGET_FIND" }
     ]
   },
   ps: {
     heroTitle: "اصلي سپي. رښتیني پایلې.",
-    heroDesc: "ملک آرمي ډاګ سنټر د غلا ریکووري ، ټریکینګ او جرمونو ملاتړ کې تخصص لري. په سیند ، KPK ، بلوچستان او پنجاب کې د بې ساري دقت سره کار کوي.",
+    heroDesc: "آرمي ډاګ سنټر د غلا ریکووري ، ټریکینګ او جرمونو ملاتړ کې تخصص لري. په سیند ، KPK ، بلوچستان او پنجاب کې د بې ساري دقت سره کار کوي.",
     startTracking: "تعقیب پیل کړئ",
     emergencyCall: "بېړنۍ اړیکه",
     servicesTitle: "ستراتیژیک کینائن خدمات",
     servicesBadge: "ځانګړې قومانده",
     aboutTitle: "د هیواد امنیتي اړتیاوو ته خدمت کول.",
-    aboutDesc: '"په ملک آرمي ډاګ سنټر کې ، زموږ لومړیتوب ستاسو خوندیتوب او ریکووري ده. موږ په ټول پاکستان کې د کلونو خدمتونو له لارې د باور او اغیزمنتوب میراث جوړ کړی دی. زموږ سپي یوازې ملګري نه دي؛ دوی د عدالت لپاره دقیق اوزار دي."',
+    aboutDesc: '"په آرمي ډاګ سنټر کې ، زموږ لومړیتوب ستاسو خوندیتوب او ریکووري ده. موږ په ټول پاکستان کې د کلونو خدمتونو له لارې د باور او اغیزمنتوب میراث جوړ کړی دی. زموږ سپي یوازې ملګري نه دي؛ دوی د عدالت لپاره دقیق اوزار دي."',
     contactTitle: "خپله ریکووري خوندي کړئ",
     branchOffice: "مرکزي قومانده",
     instantSupport: "مستقیم ځای پرځای کول",
     officialWA: "رسمي واټس اپ پورټل",
     galleryTitle: "د فعالې دندې ځواک",
     locationsTitle: "ستراتیژیک شتون",
-    locationsDesc: "په هر ولایت کې عملیاتي",
+    locationsDesc: "په کلیدي سکتورونو کې عملیاتي",
     nav: {
       services: "خدمتونه",
       locations: "سکتورونه",
@@ -157,14 +157,14 @@ const translations = {
       contact: "اړیکه"
     },
     serviceList: [
-      { id: "recovery", title: "د غلا ریکووري", key: "💰", code: "RECOVERY_OPS" },
-      { id: "rescue", title: "لټون او ژغورنه", key: "🚁", code: "RESCUE_FORCE" },
-      { id: "evidence", title: "د شواهدو سپي", key: "🏛️", code: "LEGAL_SUPPORT" },
-      { id: "prevention", title: "د غلا مخنیوی", key: "🛡️", code: "ASSET_PROTECT" },
-      { id: "tracking", title: "د سپو تعقیب", key: "🐾", code: "TRACE_MASTER" },
-      { id: "crime", title: "د جرم ملاتړ", key: "🚔", code: "CIVIL_AID" },
-      { id: "patrol", title: "امنیتي ګزمې", key: "💂", code: "AREA_WATCH" },
-      { id: "search", title: "هدف لټون", key: "🔍", code: "TARGET_FIND" }
+      { id: "recovery", title: "د غلا ریکووري", img: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=200", code: "RECOVERY_OPS" },
+      { id: "rescue", title: "لټون او ژغورنه", img: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=200", code: "RESCUE_FORCE" },
+      { id: "evidence", title: "د شواهدو سپي", img: "https://images.unsplash.com/photo-1628153322122-550998b3c990?auto=format&fit=crop&q=80&w=200", code: "LEGAL_SUPPORT" },
+      { id: "prevention", title: "د غلا مخنیوی", img: "https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?auto=format&fit=crop&q=80&w=200", code: "ASSET_PROTECT" },
+      { id: "tracking", title: "د سپو تعقیب", img: "https://images.unsplash.com/photo-1589307730440-6902264c7606?auto=format&fit=crop&q=80&w=200", code: "TRACE_MASTER" },
+      { id: "crime", title: "د جرم ملاتړ", img: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=200", code: "CIVIL_AID" },
+      { id: "patrol", title: "امنیتي ګزمې", img: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=200", code: "AREA_WATCH" },
+      { id: "search", title: "هدف لټون", img: "https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&q=80&w=200", code: "TARGET_FIND" }
     ]
   }
 };
@@ -243,8 +243,8 @@ export default function ArmyDogCenter() {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#D4AF37] text-black">
               <Radar size={22} />
             </div>
-            <span className="text-xl font-bold tracking-tighter text-white">
-              MALIK ARMY <span className="text-[#D4AF37]">DOG CENTER</span>
+            <span className="text-xl font-black tracking-tighter text-white uppercase">
+              ARMY <span className="text-[#D4AF37]">DOG CENTER</span>
             </span>
           </div>
 
@@ -311,9 +311,9 @@ export default function ArmyDogCenter() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#0F0F0F]/90 to-[#0F0F0F] z-10" />
           <img 
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1600" 
+            src="https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?auto=format&fit=crop&q=80&w=1600" 
             alt="Operational K9"
-            className="h-full w-full object-cover opacity-40 grayscale contrast-125"
+            className="h-full w-full object-cover opacity-50 grayscale contrast-125"
             referrerPolicy="no-referrer"
           />
         </div>
@@ -371,7 +371,9 @@ export default function ArmyDogCenter() {
               >
                 <div className="flex flex-col h-full justify-between">
                   <div className="flex items-center justify-between">
-                    <span className="text-4xl grayscale group-hover:grayscale-0 transition-all duration-500">{s.key}</span>
+                    <div className="h-12 w-12 overflow-hidden rounded-lg border border-[#D4AF37]/30">
+                       <img src={s.img} alt={s.title} className="h-full w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                    </div>
                     <span className="text-[8px] font-black tracking-[0.2em] text-[#D4AF37]/50 uppercase">{s.code}</span>
                    </div>
                   <div>
@@ -395,36 +397,36 @@ export default function ArmyDogCenter() {
 
           <div className="grid gap-6 md:grid-cols-3">
              <div className="grid gap-6">
-                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative">
-                   <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=800" alt="Tracking Dog" className="w-full grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
+                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative h-[300px]">
+                   <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800" alt="Operational Search" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
-                      <span className="text-xs font-black uppercase tracking-widest text-[#D4AF37]">Active Tracking</span>
+                      <span className="text-xs font-black uppercase tracking-widest text-[#D4AF37]">Tactical Scent Find</span>
                    </div>
                 </div>
-                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative">
-                   <img src="https://images.unsplash.com/photo-1589307730440-6902264c7606?auto=format&fit=crop&q=80&w=800" alt="Protection K9" className="w-full grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
+                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative h-[400px]">
+                   <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=800" alt="Tracking Ops" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
-                      <span className="text-xs font-black uppercase tracking-widest text-[#FF6B6B]">Military Grade Protection</span>
+                      <span className="text-xs font-black uppercase tracking-widest text-[#FF6B6B]">Field Track Command</span>
                    </div>
                 </div>
              </div>
-             <div className="overflow-hidden rounded-[32px] border border-white/5 group relative">
-                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800" alt="Alert Search Dog" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
+             <div className="overflow-hidden rounded-[32px] border border-white/5 group relative h-[724px]">
+                <img src="https://images.unsplash.com/photo-1628153322122-550998b3c990?auto=format&fit=crop&q=80&w=800" alt="Operational German Shepherd" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
-                   <span className="text-sm font-black uppercase tracking-widest text-[#4D96FF]">Elite Search Response</span>
+                   <span className="text-sm font-black uppercase tracking-widest text-[#4D96FF]">Elite Rescue Response</span>
                 </div>
              </div>
              <div className="grid gap-6">
-                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative">
-                   <img src="https://images.unsplash.com/photo-1615751072497-5f5169febe17?auto=format&fit=crop&q=80&w=800" alt="Night Ops K9" className="w-full grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
+                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative h-[400px]">
+                   <img src="https://images.unsplash.com/photo-1505628346881-b72b27e84530?auto=format&fit=crop&q=80&w=800" alt="Bloodhound Tracker" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
-                      <span className="text-xs font-black uppercase tracking-widest text-[#6BCB77]">Tactical Night Ops</span>
+                      <span className="text-xs font-black uppercase tracking-widest text-[#6BCB77]">Assault & Search Ops</span>
                    </div>
                 </div>
-                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative">
-                   <img src="https://images.unsplash.com/photo-1563118228-56ccf6681729?auto=format&fit=crop&q=80&w=800" alt="K9 Team" className="w-full grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
+                <div className="overflow-hidden rounded-[32px] border border-white/5 group relative h-[300px]">
+                   <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=800" alt="Belgian Malinois Search" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
-                      <span className="text-xs font-black uppercase tracking-widest text-[#D4AF37]">Deployment Ready</span>
+                      <span className="text-xs font-black uppercase tracking-widest text-[#D4AF37]">Instant Alert Status</span>
                    </div>
                 </div>
              </div>
@@ -441,7 +443,7 @@ export default function ArmyDogCenter() {
           </div>
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-            {['Sindh', 'KPK', 'Balochistan', 'Punjab'].map((province) => (
+            {['Sindh', 'KPK', 'Balochistan', 'Punjab', 'Sadiqabad', 'Sukkur', 'Panu Aqil'].map((province) => (
               <div 
                 key={province}
                 className="group relative rounded-[32px] border border-white/5 bg-[#141414] p-10 transition-all hover:bg-[#1A1A1A] hover:border-[#D4AF37]/20"
@@ -482,7 +484,7 @@ export default function ArmyDogCenter() {
              <div className="relative group">
                 <div className="absolute -inset-4 rounded-[48px] border border-[#D4AF37]/20 blur-xl group-hover:blur-3xl transition-all duration-700 opacity-30" />
                 <img 
-                  src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?auto=format&fit=crop&q=80&w=800" 
                   alt="Specialized K9 Trainer"
                   className="relative z-10 w-full rounded-[32px] grayscale contrast-125 brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-1000 border border-white/10"
                 />
@@ -600,7 +602,7 @@ export default function ArmyDogCenter() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#D4AF37] text-black">
                   <Radar size={22} />
                 </div>
-                <span className="text-2xl font-bold uppercase tracking-tighter text-white">Malik Army <span className="text-[#D4AF37]">Center</span></span>
+                <span className="text-2xl font-black uppercase tracking-tighter text-white">Army Dog <span className="text-[#D4AF37]">Center</span></span>
               </div>
               <p className="text-[10px] font-bold uppercase tracking-[0.4em] leading-relaxed text-white/20 mb-12">
                 Pakistan's elite canine agency since 2010. Specialist trackers. Professional recovery. Operational excellence.
@@ -623,10 +625,10 @@ export default function ArmyDogCenter() {
             <div className="lg:pl-10">
               <h4 className="mb-12 text-[11px] font-bold uppercase tracking-[0.6em] text-[#D4AF37]">Active Sectors</h4>
                <ul className="space-y-6 text-sm font-bold uppercase tracking-widest text-white/20">
-                 <li className="hover:text-white/60 transition-colors">Sector Sindh Command</li>
-                 <li className="hover:text-white/60 transition-colors">Sector KPK Frontier</li>
-                 <li className="hover:text-white/60 transition-colors">Sector Balochistan Reach</li>
-                 <li className="hover:text-white/60 transition-colors">Sector Punjab Central</li>
+                 <li className="hover:text-white/60 transition-colors">Sector Sadiqabad HQ</li>
+                 <li className="hover:text-white/60 transition-colors">Sector Sukkur Command</li>
+                 <li className="hover:text-white/60 transition-colors">Sector Panu Aqil Cantt</li>
+                 <li className="hover:text-white/60 transition-colors">Sector Sindh & Punjab Command</li>
                </ul>
             </div>
 
@@ -645,7 +647,7 @@ export default function ArmyDogCenter() {
 
           <div className="flex flex-col items-center justify-between gap-10 md:flex-row">
             <p className="text-[10px] font-bold uppercase tracking-[0.8em] text-white/10">
-              © 2010—2026 Malik Army Dog Center • National Security Canine Agency
+              © 2010—2026 Army Dog Center • National Security Canine Agency
             </p>
             <div className="flex items-center gap-10">
                <span className="text-[10px] font-bold tracking-[0.8em] text-white/30 uppercase italic leading-none">Honor • Loyalty • Justice</span>
